@@ -73,6 +73,7 @@
             this.colorDialog = new System.Windows.Forms.ColorDialog();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.допЗаданиеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -137,21 +138,21 @@
             // inverseToolStripMenuItem
             // 
             this.inverseToolStripMenuItem.Name = "inverseToolStripMenuItem";
-            this.inverseToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.inverseToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.inverseToolStripMenuItem.Text = "Инверсия";
             this.inverseToolStripMenuItem.Click += new System.EventHandler(this.inverseToolStripMenuItem_Click);
             // 
             // grayScaleToolStripMenuItem
             // 
             this.grayScaleToolStripMenuItem.Name = "grayScaleToolStripMenuItem";
-            this.grayScaleToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.grayScaleToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.grayScaleToolStripMenuItem.Text = "ЧБ";
             this.grayScaleToolStripMenuItem.Click += new System.EventHandler(this.grayScaleToolStripMenuItem_Click);
             // 
             // sepiaToolStripMenuItem
             // 
             this.sepiaToolStripMenuItem.Name = "sepiaToolStripMenuItem";
-            this.sepiaToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.sepiaToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.sepiaToolStripMenuItem.Text = "Сепия";
             this.sepiaToolStripMenuItem.Click += new System.EventHandler(this.sepiaToolStripMenuItem_Click);
             // 
@@ -160,41 +161,41 @@
             this.увеличитьЯркостьToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.increaseLuminanceBy20ToolStripMenuItem2});
             this.увеличитьЯркостьToolStripMenuItem.Name = "увеличитьЯркостьToolStripMenuItem";
-            this.увеличитьЯркостьToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.увеличитьЯркостьToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.увеличитьЯркостьToolStripMenuItem.Text = "Увеличить яркость";
             // 
             // increaseLuminanceBy20ToolStripMenuItem2
             // 
             this.increaseLuminanceBy20ToolStripMenuItem2.Name = "increaseLuminanceBy20ToolStripMenuItem2";
-            this.increaseLuminanceBy20ToolStripMenuItem2.Size = new System.Drawing.Size(108, 26);
+            this.increaseLuminanceBy20ToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
             this.increaseLuminanceBy20ToolStripMenuItem2.Text = "20";
             this.increaseLuminanceBy20ToolStripMenuItem2.Click += new System.EventHandler(this.increaseLuminanceBy20ToolStripMenuItem2_Click);
             // 
             // waweToolStripMenuItem
             // 
             this.waweToolStripMenuItem.Name = "waweToolStripMenuItem";
-            this.waweToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.waweToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.waweToolStripMenuItem.Text = "Волна";
             this.waweToolStripMenuItem.Click += new System.EventHandler(this.waweToolStripMenuItem_Click);
             // 
             // glassToolStripMenuItem
             // 
             this.glassToolStripMenuItem.Name = "glassToolStripMenuItem";
-            this.glassToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.glassToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.glassToolStripMenuItem.Text = "Стекло";
             this.glassToolStripMenuItem.Click += new System.EventHandler(this.glassToolStripMenuItem_Click);
             // 
             // переносToolStripMenuItem
             // 
             this.переносToolStripMenuItem.Name = "переносToolStripMenuItem";
-            this.переносToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.переносToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.переносToolStripMenuItem.Text = "Перенос";
             this.переносToolStripMenuItem.Click += new System.EventHandler(this.переносToolStripMenuItem_Click);
             // 
             // поворотToolStripMenuItem
             // 
             this.поворотToolStripMenuItem.Name = "поворотToolStripMenuItem";
-            this.поворотToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.поворотToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.поворотToolStripMenuItem.Text = "Поворот";
             this.поворотToolStripMenuItem.Click += new System.EventHandler(this.поворотToolStripMenuItem_Click);
             // 
@@ -204,7 +205,7 @@
             this.toolStripMenuItem2,
             this.toolStripMenuItem3});
             this.волныToolStripMenuItem.Name = "волныToolStripMenuItem";
-            this.волныToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
+            this.волныToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.волныToolStripMenuItem.Text = "Волны";
             // 
             // toolStripMenuItem2
@@ -365,7 +366,8 @@
             // 
             this.коррекцияToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.linearExtendToolStripMenuItem,
-            this.correctionWithReferenceСolorToolStripMenuItem});
+            this.correctionWithReferenceСolorToolStripMenuItem,
+            this.допЗаданиеToolStripMenuItem});
             this.коррекцияToolStripMenuItem.Name = "коррекцияToolStripMenuItem";
             this.коррекцияToolStripMenuItem.Size = new System.Drawing.Size(51, 24);
             this.коррекцияToolStripMenuItem.Text = "Доп";
@@ -444,6 +446,13 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // допЗаданиеToolStripMenuItem
+            // 
+            this.допЗаданиеToolStripMenuItem.Name = "допЗаданиеToolStripMenuItem";
+            this.допЗаданиеToolStripMenuItem.Size = new System.Drawing.Size(250, 26);
+            this.допЗаданиеToolStripMenuItem.Text = "Доп задание";
+            this.допЗаданиеToolStripMenuItem.Click += new System.EventHandler(this.допЗаданиеToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -514,6 +523,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.ToolStripMenuItem допЗаданиеToolStripMenuItem;
     }
 }
 

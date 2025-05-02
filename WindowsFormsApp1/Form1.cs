@@ -359,6 +359,12 @@ namespace WindowsFormsApp1
                 pictureBox.Refresh();
             }
         }
+
+        private void допЗаданиеToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DopFilter filter = new DopFilter();
+            backgroundWorker.RunWorkerAsync(filter);
+        }
     }
 }
 
